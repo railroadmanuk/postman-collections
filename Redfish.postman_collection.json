@@ -1,0 +1,196 @@
+{
+	"id": "db629b30-c835-cb1b-3764-d1921df3542a",
+	"name": "Redfish",
+	"description": "A collection of REST calls for Postman for the Supermicro implementation of the Redfish API",
+	"order": [],
+	"folders": [
+		{
+			"id": "8e6f86c0-9b81-91b0-c923-bd8f1ae2a86d",
+			"name": "Basic Authentication",
+			"description": "Requests using basic authentication",
+			"order": [
+				"a72e1fcf-a899-7094-5748-c2aa6547971d",
+				"9a302f71-488f-fdbb-6f5e-06ee5f4e4b7c",
+				"61da6de1-e3da-76f5-2b01-5de5c216e3a8",
+				"5f551444-5ccf-80af-283b-b13bc2e26aee",
+				"0cf28369-3434-0496-7e9a-ee2e62492146",
+				"8e072c4e-4bda-ccee-0c02-0ed676a39beb",
+				"1cfe3d03-1f38-9893-fcb4-fba97196b907"
+			],
+			"owner": 0,
+			"collectionId": "db629b30-c835-cb1b-3764-d1921df3542a"
+		}
+	],
+	"timestamp": 1477483460965,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0cf28369-3434-0496-7e9a-ee2e62492146",
+			"headers": "",
+			"url": "https://{{ip_address}}/redfish/v1/Managers/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "{{username}}",
+				"password": "{{password}}",
+				"saveToRequest": true
+			},
+			"time": 1477485245161,
+			"name": "Manager 1 query",
+			"description": "",
+			"collectionId": "db629b30-c835-cb1b-3764-d1921df3542a",
+			"responses": []
+		},
+		{
+			"id": "1cfe3d03-1f38-9893-fcb4-fba97196b907",
+			"headers": "",
+			"url": "https://{{ip_address}}/redfish/v1/Chassis/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "{{username}}",
+				"password": "{{password}}",
+				"saveToRequest": true
+			},
+			"time": 1477485250695,
+			"name": "Chassis 1 query",
+			"description": "",
+			"collectionId": "db629b30-c835-cb1b-3764-d1921df3542a",
+			"responses": []
+		},
+		{
+			"id": "5f551444-5ccf-80af-283b-b13bc2e26aee",
+			"headers": "",
+			"url": "https://{{ip_address}}/redfish/v1/Managers",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "{{username}}",
+				"password": "{{password}}",
+				"saveToRequest": true
+			},
+			"time": 1477485241663,
+			"name": "Managers query",
+			"description": "",
+			"collectionId": "db629b30-c835-cb1b-3764-d1921df3542a",
+			"responses": []
+		},
+		{
+			"id": "61da6de1-e3da-76f5-2b01-5de5c216e3a8",
+			"headers": "",
+			"url": "https://{{ip_address}}/redfish/v1/Systems/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "{{username}}",
+				"password": "{{password}}",
+				"saveToRequest": true
+			},
+			"time": 1477485233716,
+			"name": "System 1 query",
+			"description": "",
+			"collectionId": "db629b30-c835-cb1b-3764-d1921df3542a",
+			"responses": []
+		},
+		{
+			"id": "8e072c4e-4bda-ccee-0c02-0ed676a39beb",
+			"headers": "",
+			"url": "https://{{ip_address}}/redfish/v1/Managers/1/EthernetInterfaces/1",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "{{username}}",
+				"password": "{{password}}",
+				"saveToRequest": true
+			},
+			"time": 1477485247986,
+			"name": "IPMI Ethernet Interface query",
+			"description": "",
+			"collectionId": "db629b30-c835-cb1b-3764-d1921df3542a",
+			"responses": []
+		},
+		{
+			"id": "9a302f71-488f-fdbb-6f5e-06ee5f4e4b7c",
+			"headers": "",
+			"url": "https://{{ip_address}}/redfish/v1/Systems",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "{{username}}",
+				"password": "{{password}}",
+				"saveToRequest": true
+			},
+			"time": 1477485230929,
+			"name": "Systems query",
+			"description": "",
+			"collectionId": "db629b30-c835-cb1b-3764-d1921df3542a",
+			"responses": []
+		},
+		{
+			"id": "a72e1fcf-a899-7094-5748-c2aa6547971d",
+			"headers": "",
+			"url": "https://{{ip_address}}/redfish/v1/",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "{{username}}",
+				"password": "{{password}}",
+				"saveToRequest": true
+			},
+			"time": 1477485226410,
+			"name": "Serviceroot query",
+			"description": "",
+			"collectionId": "db629b30-c835-cb1b-3764-d1921df3542a",
+			"responses": []
+		}
+	]
+}
